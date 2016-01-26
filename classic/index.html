@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Admina Bootstrap Admin. This is the demo of Admina. You need to purchase a license for legal use!">
+		<meta name="author" content="DownTown Themes">
+
+		<link rel="shortcut icon" href="assets/img/icon.png">
+
+		<title>Admina - Responsive Admin Template</title>
+
+		<!-- Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+		<!--Icon fonts css-->
+		<link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" />
+		<link href="assets/plugins/ionicon/css/ionicons.min.css" rel="stylesheet" />
+
+		<!-- Bootstrap CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/bootstrap-reset.css" rel="stylesheet">
+
+		<!--Animation css-->
+		<link href="assets/css/animate.css" rel="stylesheet">
+
+		<!--Morris Chart CSS -->
+		<link rel="stylesheet" href="assets/plugins/morris/morris.css">
+
+		<!-- sweet alerts -->
+		<link href="assets/plugins/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+
+		<link href="assets/plugins/toggles/toggles.css" rel="stylesheet" />
+
+		<!-- Custom styles -->
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/helper.css" rel="stylesheet">
+		<link href="assets/css/style-responsive.css" rel="stylesheet" />
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<!-- Header -->
+		<header class="top-head container-fluid navbar-fixed-top">
+			<!-- logo -->
+			<div class="logo hidden-xs">
+				<a href="index-2.html" class="logo-expanded"> <img src="assets/img/icon.png" alt="logo"> <span class="nav-text">Admina</span> </a>
+			</div>
+			<!-- end logo -->
+			<button type="button" class="navbar-toggle pull-left">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-toggle ion-navicon-round"></span>
+			</button>
+
+			<!-- Search -->
+			<form role="search" class="navbar-left app-search pull-left hidden-xs">
+				<input type="text" placeholder="Search..." class="form-control">
+			</form>
+			<!-- End Search -->
+
+			<!-- Right navbar -->
+			<ul class="list-inline navbar-right top-menu top-right-menu">
+				<!-- Messages -->
+				<li class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="#"> <i class="fa fa-envelope-o "></i> <span class="badge badge-sm up bg-purple count">4</span> </a>
+					<ul class="dropdown-menu extended fadeInUp animated nicescroll" tabindex="5001">
+						<li>
+							<p>
+								Messages
+							</p>
+						</li>
+						<li>
+							<a href="#"> <span class="pull-left"><img src="assets/img/avatar-2.jpg" class="img-circle thumb-sm m-r-15" alt="img"></span> <span class="block"><strong>Hammond Burke</strong></span> <span class="media-body block">New tasks
+								<br>
+								<small class="text-muted">3 seconds ago</small></span> </a>
+						</li>
+						<li>
+							<a href="#"> <span class="pull-left"><img src="assets/img/avatar-3.jpg" class="img-circle thumb-sm m-r-15" alt="img"></span> <span class="block"><strong>Ray Shannon</strong></span> <span class="media-body block">New file add
+								<br>
+								<small class="text-muted">5 minutes ago</small></span> </a>
+						</li>
+						<li>
+							<a href="#"> <span class="pull-left"><img src="assets/img/avatar-4.jpg" class="img-circle thumb-sm m-r-15" alt="img"></span> <span class="block"><strong>Hammond Burke</strong></span> <span class="media-body block">New file add
+								<br>
+								<small class="text-muted">12 minutes ago</small></span> </a>
+						</li>
+						<li>
+							<a href="#"> <span class="pull-left"><img src="assets/img/avatar-5.jpg" class="img-circle thumb-sm m-r-15" alt="img"></span> <span class="block"><strong>Ray Shannon</strong></span> <span class="media-body block">New tasks needs to be done
+								<br>
+								<small class="text-muted">15 minutes ago</small></span> </a>
+						</li>
+						<li>
+							<p class="text-center">
+								<a href="inbox.html">All Messages</a>
+							</p>
+						</li>
+					</ul>
+				</li>
+				<!-- End messages -->
+				<!-- Notification -->
+				<li class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="#"> <i class="fa fa-bell-o"></i> <span class="badge badge-sm up bg-pink count">5</span> </a>
+					<ul class="dropdown-menu extended fadeInUp animated nicescroll" tabindex="5002">
+						<li class="noti-header">
+							<p>
+								Notifications
+							</p>
+						</li>
+						<li>
+							<a href="#"> <span class="pull-left"><i class="fa fa-user-plus fa-2x text-info"></i></span> <span>New user add
+								<br>
+								<small class="text-muted">2 minutes ago</small></span> </a>
+						</li>
+						<li>
+							<a href="#"> <span class="pull-left"><i class="fa fa-diamond fa-2x text-primary"></i></span> <span>Use file add
+								<br>
+								<small class="text-muted">4 minutes ago</small></span> </a>
+						</li>
+						<li>
+							<a href="#"> <span class="pull-left"><i class="fa fa-bell-o fa-2x text-danger"></i></span> <span>Send project demo files to client
+								<br>
+								<small class="text-muted">2 hour ago</small></span> </a>
+						</li>
+						<li>
+							<a href="#"> <span class="pull-left"><i class="fa fa-cloud-upload fa-2x text-success"></i></span> <span>Download project
+								<br>
+								<small class="text-muted">3 hour ago</small></span> </a>
+						</li>
+						<li>
+							<a href="#"> <span class="pull-left"><i class="fa fa-cloud-download fa-2x text-warning"></i></span> <span>Upload projects
+								<br>
+								<small class="text-muted">5 hour ago</small></span> </a>
+						</li>
+
+						<li>
+							<p class="text-center">
+								<a href="#">All notifications</a>
+							</p>
+						</li>
+					</ul>
+				</li>
+				<!-- End Notification -->
+
+				<!-- User Menu Dropdown -->
+				<li class="dropdown text-center">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="#"> <img alt="" src="assets/img/avatar-2.jpg" class="img-circle profile-img thumb-sm"> <span class="username">Ray Shannon </span> <span class="caret"></span> </a>
+					<ul class="dropdown-menu extended pro-menu fadeInUp animated" tabindex="5003" style="overflow: hidden; outline: none;">
+						<li>
+							<a href="profile.html"><i class="fa fa-briefcase"></i>Profile</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-cog"></i> Settings</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-bell"></i><span class="pull-left"> Issues</span> <span class="label label-info pull-right mail-info">5</span></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-sign-out"></i> Log Out</a>
+						</li>
+					</ul>
+				</li>
+				<!-- End User Menu Dropdown -->
+			</ul>
+			<!-- End Right Navbar -->
+
+		</header>
+		<!-- End Header -->
+
+		<!-- Aside Menu -->
+		<aside class="left-panel">
+
+			<!-- Navbar -->
+			<nav class="navigation">
+				<ul class="list-unstyled">
+					<li class="active">
+						<a href="index-2.html"><i class="ion-home"></i> <span class="nav-label">Dashboard</span></a>
+					</li>
+					<li>
+						<a href="../desktop/index.html"><i class="fa fa-laptop"></i> <span class="nav-label">Desktop Admin</span></a>
+					</li>
+					<li class="has-submenu">
+						<a href="#"><i class="ion-settings"></i> <span class="nav-label">Components</span> <span class="caret pull-right m-t-10"></span></a>
+						<ul class="list-unstyled">
+							<li>
+								<a href="grid.html">Grid</a>
+							</li>
+							<li>
+								<a href="portlets.html">Portlets</a>
+							</li>
+							<li>
+								<a href="nestable-list.html">Nesteble</a>
+							</li>
+							<li>
+								<a href="calendar.html">Calendar</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="has-submenu">
+						<a href="#"><i class="ion-flask"></i> <span class="nav-label">UI Elements</span> <span class="caret pull-right m-t-10"></span></a>
+						<ul class="list-unstyled">
+							<li>
+								<a href="ui-buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="ui-bootstrap.html">Elements</a>
+							</li>
+							<li>
+								<a href="ui-icons.html">Icons</a>
+							</li>
+							<li>
+								<a href="ui-modals.html">Modals</a>
+							</li>
+							<li>
+								<a href="ui-notification.html">Notification</a>
+							</li>
+							<li>
+								<a href="ui-panels.html">Panels</a>
+							</li>
+							<li>
+								<a href="ui-progressbars.html">Progress Bars</a>
+							</li>
+							<li>
+								<a href="ui-sweet-alert.html">Sweet Alert</a>
+							</li>
+							<li>
+								<a href="ui-tabs-accordions.html">Tabs and Accordions</a>
+							</li>
+							<li>
+								<a href="ui-typography.html">Typography</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="has-submenu">
+						<a href="#"><i class="ion-compose"></i> <span class="nav-label">Forms</span> <span class="caret pull-right m-t-10"></span></a>
+						<ul class="list-unstyled">
+							<li>
+								<a href="form-elements.html">General Elements</a>
+							</li>
+							<li>
+								<a href="form-validation.html">Form Validation</a>
+							</li>
+							<li>
+								<a href="form-advanced.html">Advanced Form</a>
+							</li>
+							<li>
+								<a href="form-wizard.html">Form Wizard</a>
+							</li>
+							<li>
+								<a href="form-editor.html">WYSIWYG Editor</a>
+							</li>
+							<li>
+								<a href="code-editor.html">Code Editors</a>
+							</li>
+							<li>
+								<a href="form-uploads.html">Multiple File Upload</a>
+							</li>
+							<li>
+								<a href="image-crop.html">Image Crop</a>
+							</li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#"><i class="ion-grid"></i> <span class="nav-label">Data Tables</span> <span class="caret pull-right m-t-10"></span></a>
+						<ul class="list-unstyled">
+							<li>
+								<a href="tables.html">Basic Tables</a>
+							</li>
+							<li>
+								<a href="table-datatable.html">Data Table</a>
+							</li>
+						</ul>
+					</li>
+					<li class="has-submenu">
+						<a href="#"><i class="ion-stats-bars"></i> <span class="nav-label">Charts</span> <span class="caret pull-right m-t-10"></span></a>
+						<ul class="list-unstyled">
+							<li>
+								<a href="morris-chart.html">Morris Chart</a>
+							</li>
+							<li>
+								<a href="chartjs.html">Chartjs</a>
+							</li>
+							<li>
+								<a href="flot-chart.html">Flot Chart</a>
+							</li>
+							<li>
+								<a href="c3-chart.html">C3 Chart</a>
+							</li>
+							<li>
+								<a href="other-chart.html">Other Chart</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="has-submenu">
+						<a href="#"><i class="ion-location"></i> <span class="nav-label">Maps</span> <span class="caret pull-right m-t-10"></span></a>
+						<ul class="list-unstyled">
+							<li>
+								<a href="gmap.html"> Google Map</a>
+							</li>
+							<li>
+								<a href="vector-map.html"> Vector Map</a>
+							</li>
+						</ul>
+					</li>
+					
+					<li>
+						<a href="pagejax.html"><i class="ion-home"></i> <span class="nav-label">Pagejax</span></a>
+					</li>
+
+					<li class="has-submenu">
+						<a href="#"><i class="ion-email"></i> <span class="nav-label">Mail</span> <span class="caret pull-right m-t-10"></span></a>
+						<ul class="list-unstyled">
+							<li>
+								<a href="inbox.html">Inbox</a>
+							</li>
+							<li>
+								<a href="email-compose.html">Compose Mail</a>
+							</li>
+							<li>
+								<a href="email-read.html">View Mail</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="has-submenu">
+						<a href="#"><i class="ion-document"></i> <span class="nav-label">Pages</span> <span class="caret pull-right m-t-10"></span></a>
+						<ul class="list-unstyled">
+							<li>
+								<a href="invoice.html">Invoice</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact List</a>
+							</li>
+							<li>
+								<a href="login.html">Login</a>
+							</li>
+							<li>
+								<a href="register.html">Register</a>
+							</li>
+							<li>
+								<a href="recover_password.html">Recover Password</a>
+							</li>
+							<li>
+								<a href="lock-screen.html">Lock Screen</a>
+							</li>
+							<li>
+								<a href="blank.html">Blank Page</a>
+							</li>
+							<li>
+								<a href="404.html">404 Error</a>
+							</li>
+							<li>
+								<a href="404_alt.html">404 alt</a>
+							</li>
+							<li>
+								<a href="500.html">500 Error</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<!-- End Navbar -->
+
+		</aside>
+		<!-- End Aside -->
+
+		<!--Main Content -->
+		<section class="content">
+
+			<!-- Page Content -->
+
+			<div class="wraper container-fluid">
+				<div class="page-title">
+					<h3 class="title">Dashboard </h3>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="portlet">
+							<div class="portlet-heading">
+								<h3 class="portlet-title text-dark text-uppercase"> Visiters </h3>
+								<div class="portlet-widgets">
+									<a href="javascript:;" data-toggle="expand"><i class="ion-lightbulb"></i></a>
+									<span class="divider"></span>
+									<a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+									<span class="divider"></span>
+									<a data-toggle="collapse" data-parent="#accordion1" href="#portlet2"><i class="ion-minus-round"></i></a>
+									<span class="divider"></span>
+									<a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="portlet2" class="panel-collapse collapse in">
+								<div class="portlet-body">
+									<div id="morris-line-example" style="height: 185px;"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="tile-stats white-bg">
+									<div class="status">
+										<h3 class="m-t-0 text-info"><i class="fa fa-users"></i> 22+</h3>
+										<p>
+											News users
+										</p>
+									</div>
+									<div class="chart-inline">
+										<span id="dashboard1"></span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<div class="tile-stats white-bg">
+									<div class="status">
+										<h3 class="m-t-0 text-danger"><i class="fa fa-envelope-o"></i> 23</h3>
+										<p>
+											New emails
+										</p>
+									</div>
+									<span id="dashboard2"></span>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<div class="tile-stats white-bg">
+									<div class="col-sm-8">
+										<div class="status">
+											<h3 class="m-t-15 text-success"><i class="fa fa-money"></i> 65</h3>
+											<p>
+												New sales
+											</p>
+										</div>
+									</div>
+									<div class="col-sm-4 m-t-20">
+										<span id="dashboard3"></span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<div class="tile-stats white-bg">
+									<div class="col-sm-8">
+										<div class="status">
+											<h3 class="m-t-15 text-warning"><i class="fa fa-life-ring"></i> 35</h3>
+											<p>
+												New helps
+											</p>
+										</div>
+									</div>
+									<div class="col-sm-4 m-t-20">
+										<span id="dashboard4"></span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="portlet">
+							<div class="portlet-heading">
+								<h3 class="portlet-title text-dark text-uppercase"> Downloads </h3>
+								<div class="portlet-widgets">
+									<a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+									<span class="divider"></span>
+									<a data-toggle="collapse" data-parent="#accordion1" href="#portlet1"><i class="ion-minus-round"></i></a>
+									<span class="divider"></span>
+									<a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="portlet1" class="panel-collapse collapse in">
+								<div class="portlet-body">
+									<div class="row">
+										<div class="col-md-8">
+											<div id="morris-area-example" style="height: 300px;"></div>
+											<div class="row text-center m-t-30 m-b-30">
+												<div class="col-sm-4">
+													<h4>1.215</h4>
+													<small class="text-muted"> Yearly</small>
+												</div>
+												<div class="col-sm-4">
+													<h4>649</h4>
+													<small class="text-muted">Monthly</small>
+												</div>
+												<div class="col-sm-4">
+													<h4>320</h4>
+													<small class="text-muted">Weekly</small>
+												</div>
+
+											</div>
+										</div>
+										<div class="col-md-4">
+											<h4 class="m-b-15 text-uppercase">Download Servers</h4>
+											<p class="small">
+												Server 0 - <span class="text-purple">70%</span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-purple progress-animated wow animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+											</div>
+											<p class="small">
+												Server 1 - <span class="text-warning">10%</span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-warning progress-animated wow animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+											</div>
+											<p class="small">
+												Server 2 - <span class="text-success">55%</span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-success progress-animated wow animated" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%"></div>
+											</div>
+											<p class="small">
+												Server 3 - <span class="text-info">30%</span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-info progress-animated wow animated" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+											</div>
+											<p class="small">
+												Server 4 - <span class="text-info">50%</span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-pink progress-animated wow animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="portlet">
+							<div class="portlet-heading">
+								<h3 class="portlet-title text-dark text-uppercase"> Projects </h3>
+								<div class="portlet-widgets">
+									<a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+									<span class="divider"></span>
+									<a data-toggle="collapse" data-parent="#accordion1" href="#portlet3"><i class="ion-minus-round"></i></a>
+									<span class="divider"></span>
+									<a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="portlet3" class="panel-collapse collapse in">
+								<div class="portlet-body">
+									<div class="table-responsive">
+										<table class="table">
+											<thead>
+												<tr>
+													<th>#</th>
+													<th>Project Name</th>
+													<th>Start Date</th>
+													<th>End Date</th>
+													<th>Status</th>
+													<th>Client</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>#1</td>
+													<td>New dashboard desktop</td>
+													<td>16/06/2015</td>
+													<td>26/06/2015</td>
+													<td><span class="label label-info">Start</span></td>
+													<td>San Kin</td>
+												</tr>
+												<tr>
+													<td>2</td>
+													<td>New dashboard desktop</td>
+													<td>16/06/2015</td>
+													<td>26/06/2015</td>
+													<td><span class="label label-success">Released</span></td>
+													<td>San Kin</td>
+												</tr>
+												<tr>
+													<td>3</td>
+													<td>New dashboard desktop</td>
+													<td>16/06/2015</td>
+													<td>26/06/2015</td>
+													<td><span class="label label-pink">Pending</span></td>
+													<td>San Kin</td>
+												</tr>
+												<tr>
+													<td>4</td>
+													<td>New dashboard desktop</td>
+													<td>16/06/2015</td>
+													<td>26/06/2015</td>
+													<td><span class="label label-purple">in Progress</span></td>
+													<td>San Kin</td>
+												</tr>
+												<tr>
+													<td>5</td>
+													<td>New dashboard desktop</td>
+													<td>16/06/2015</td>
+													<td>26/06/2015</td>
+													<td><span class="label label-warning">Coming soon</span></td>
+													<td>San Kin</td>
+												</tr>
+												<tr>
+													<td>6</td>
+													<td>New dashboard desktop</td>
+													<td>16/06/2015</td>
+													<td>26/06/2015</td>
+													<td><span class="label label-warning">Relocated</span></td>
+													<td>San Kin</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+
+						<!-- Team -->
+						<div class="portlet">
+							<div class="portlet-heading">
+								<h3 class="portlet-title text-dark text-uppercase"> Team Members </h3>
+								<div class="portlet-widgets">
+									<a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+									<span class="divider"></span>
+									<a data-toggle="collapse" data-parent="#accordion1" href="#portlet-6" class="" aria-expanded="true"><i class="ion-minus-round"></i></a>
+									<span class="divider"></span>
+									<a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="portlet-6" class="panel-collapse collapse in">
+								<div class="portlet-body">
+									<ul class="list-group list-group-lg">
+										<li class="list-group-item b-0">
+											<a href="#" class=" m-r-10"> <img src="assets/img/avatar-3.jpg" class="thumb-sm br-radius"> </a>
+											<span class="pull-right label bg-primary inline m-t-10">Web Developer</span>
+											<a href="#">Camron Camden</a>
+										</li>
+										<li class="list-group-item b-0">
+											<a href="#" class=" m-r-10"> <img src="assets/img/avatar-4.jpg" class="thumb-sm br-radius"> </a>
+											<span class="pull-right label bg-info inline m-t-10">Mobile Developer</span>
+											<a href="#">Timothy Ridley</a>
+										</li>
+										<li class="list-group-item b-0">
+											<a href="#" class=" m-r-10"> <img src="assets/img/avatar-5.jpg" class="thumb-sm br-radius"> </a>
+											<span class="pull-right label bg-warning inline m-t-10">Web Developer</span>
+											<a href="#">Grady Graham</a>
+										</li>
+										<li class="list-group-item b-0">
+											<a href="#" class=" m-r-10"> <img src="assets/img/avatar-6.jpg" class="thumb-sm br-radius"> </a>
+											<span class="pull-right label bg-pink inline m-t-10">Mobile Developer</span>
+											<a href="#">Destinee Snowdon</a>
+										</li>
+										<li class="list-group-item b-0">
+											<a href="#" class=" m-r-10"> <img src="assets/img/avatar-7.jpg" class="thumb-sm br-radius"> </a>
+											<span class="pull-right label bg-warning inline m-t-10">Web Developer</span>
+											<a href="#">Carson Newberry</a>
+										</li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- End Team -->
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4">
+
+						<!-- Chat -->
+						<div class="portlet">
+							<div class="portlet-heading">
+								<h3 class="portlet-title text-dark text-uppercase"> Chat </h3>
+								<div class="portlet-widgets">
+									<a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+									<span class="divider"></span>
+									<a data-toggle="collapse" data-parent="#accordion1" href="#portlet-3"><i class="ion-minus-round"></i></a>
+									<span class="divider"></span>
+									<a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="portlet-3" class="panel-collapse collapse in">
+								<div class="portlet-body">
+									<div class="chat-conversation">
+										<ul tabindex="5000" style="overflow: hidden;" class="conversation-list nicescroll">
+											<li class="clearfix">
+												<div class="chat-avatar">
+													<img src="assets/img/avatar-2.jpg" alt="male">
+													<i>10:00</i>
+												</div>
+												<div class="conversation-text">
+													<div class="chat-message">
+														<i>Kin Don</i>
+														<p>
+															Hello!
+														</p>
+													</div>
+												</div>
+											</li>
+											<li class="clearfix odd">
+												<div class="chat-avatar">
+													<img src="assets/img/avatar-3.jpg" alt="Female">
+													<i>10:01</i>
+												</div>
+												<div class="conversation-text">
+													<div class="chat-message">
+														<i>Ray Shannon</i>
+														<p>
+															Hi, How are you?
+														</p>
+													</div>
+												</div>
+											</li>
+											<li class="clearfix">
+												<div class="chat-avatar">
+													<img src="assets/img/avatar-2.jpg" alt="male">
+													<i>10:01</i>
+												</div>
+												<div class="conversation-text">
+													<div class="chat-message">
+														<i>Kin Don</i>
+														<p>
+															Lorem ipsum dolor sit amet.
+														</p>
+													</div>
+												</div>
+											</li>
+											<li class="clearfix odd">
+												<div class="chat-avatar">
+													<img src="assets/img/avatar-3.jpg" alt="male">
+													<i>10:02</i>
+												</div>
+												<div class="conversation-text">
+													<div class="chat-message">
+														<i>Ray Shannon</i>
+														<p>
+															Lorem ipsum dolor sit amet.
+														</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<div class="row">
+											<div class="col-xs-9 chat-inputbar">
+												<input class="form-control chat-input" placeholder="Enter your message" type="text">
+											</div>
+											<div class="col-xs-3 chat-send">
+												<button type="submit" class="btn btn-info btn-message">
+													Send
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end Chat -->
+					</div>
+
+					<div class="col-lg-4">
+
+						<!-- Todo -->
+						<div class="portlet" id="todo-container">
+							<div class="portlet-heading">
+								<h3 class="portlet-title text-dark text-uppercase"> Todo </h3>
+								<div class="portlet-widgets">
+									<a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+									<span class="divider"></span>
+									<a data-toggle="collapse" data-parent="#accordion1" href="#portlet-5" class="" aria-expanded="true"><i class="ion-minus-round"></i></a>
+									<span class="divider"></span>
+									<a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="portlet-5" class="panel-collapse collapse in">
+								<div class="portlet-body todoapp">
+									<div class="row">
+										<div class="col-sm-6">
+											<h4 id="todo-message"><span id="todo-remaining">2</span> of <span id="todo-total">6</span> remaining</h4>
+										</div>
+										<div class="col-sm-6">
+											<a href="" class="pull-right btn btn-primary btn-sm" id="btn-archive">Archive</a>
+										</div>
+									</div>
+
+									<ul tabindex="5001" class="list-group no-margn nicescroll todo-list" style="max-height: 275px; overflow: hidden;" id="todo-list">
+										<li class="list-group-item">
+											<label class="cr-styled">
+												<input checked="" class="todo-done" id="6" type="checkbox">
+												<i class="fa"></i></label><span class="todo-text">Build an angular app</span>
+										</li>
+										<li class="list-group-item">
+											<label class="cr-styled">
+												<input class="todo-done" id="5" type="checkbox">
+												<i class="fa"></i></label><span class="todo-text">Hehe!! This is looks cool!</span>
+										</li>
+										<li class="list-group-item">
+											<label class="cr-styled">
+												<input checked="" class="todo-done" id="4" type="checkbox">
+												<i class="fa"></i></label><span class="todo-text">Testing??</span>
+										</li>
+										<li class="list-group-item">
+											<label class="cr-styled">
+												<input checked="" class="todo-done" id="3" type="checkbox">
+												<i class="fa"></i></label><span class="todo-text">Creating component page</span>
+										</li>
+										<li class="list-group-item">
+											<label class="cr-styled">
+												<input checked="" class="todo-done" id="2" type="checkbox">
+												<i class="fa"></i></label><span class="todo-text">Build a js based app</span>
+										</li>
+										<li class="list-group-item">
+											<label class="cr-styled">
+												<input class="todo-done" id="1" type="checkbox">
+												<i class="fa"></i></label><span class="todo-text">Design One page theme</span>
+										</li>
+									</ul>
+
+									<form name="todo-form" id="todo-form" role="form" class="m-t-20">
+										<div class="row">
+											<div class="col-sm-9 todo-inputbar">
+												<input id="todo-input-text" name="todo-input-text" class="form-control" placeholder="Add new todo" type="text">
+											</div>
+											<div class="col-sm-3 todo-send">
+												<button class="btn-info btn-block btn" type="button" id="todo-btn-submit">
+													Add
+												</button>
+											</div>
+										</div>
+									</form>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Todo -->
+
+					<!-- User Stats -->
+					<div class="col-lg-4">
+						<div class="portlet">
+							<div class="portlet-heading">
+								<h3 class="portlet-title text-dark text-uppercase"> Users Report </h3>
+								<div class="portlet-widgets">
+									<a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+									<span class="divider"></span>
+									<a data-toggle="collapse" data-parent="#accordion1" href="#portlet2"><i class="ion-minus-round"></i></a>
+									<span class="divider"></span>
+									<a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="portlet2" class="panel-collapse collapse in">
+								<div class="portlet-body">
+									<div id="morris-bar-example" style="height: 275px;"></div>
+									<div class="row text-center m-t-30">
+										<div class="col-sm-4">
+											<h4> 2.365</h4>
+											<small class="text-muted"> 23/12</small>
+										</div>
+										<div class="col-sm-4">
+											<h4>1.995</h4>
+											<small class="text-muted"> 23/11</small>
+										</div>
+										<div class="col-sm-4">
+											<h4>4.320</h4>
+											<small class="text-muted"> 22/11</small>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- End User Stats -->
+				</div>
+
+			</div>
+			<!-- End Content -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				2015 © Admina By Downtown Themes
+			</footer>
+			<!-- End Footer -->
+
+		</section>
+
+		<div class="demo-options">
+			<div class="demo-options-icon">
+				<i class="fa fa-cog"></i>
+			</div>
+			<div class="demo-heading">
+				Demo Settings
+			</div>
+
+			<div class="demo-body">
+
+				<label class="control-label">Fixed Topnav</label>
+				<div class="control-label">
+					<div class="toggle toggle-default active fixedTop"></div>
+				</div>
+
+			</div>
+
+			<div class="demo-body">
+				<div class="option-title">
+					Topnav
+				</div>
+				<ul id="demo-header-color" class="demo-color-list">
+					<li>
+						<span class="themecolor default"></span>
+					</li>
+					<li>
+						<span class="themecolor dark"></span>
+					</li>
+					<li>
+						<span class="themecolor red"></span>
+					</li>
+					<li>
+						<span class="themecolor green"></span>
+					</li>
+					<li>
+						<span class="themecolor yellow"></span>
+					</li>
+					<li>
+						<span class="themecolor pink"></span>
+					</li>
+					<li>
+						<span class="themecolor purple"></span>
+					</li>
+					<li>
+						<span class="themecolor acqua"></span>
+					</li>
+					<li>
+						<span class="themecolor grey"></span>
+					</li>
+					<li>
+						<span class="themecolor white"></span>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- Basic Plugins -->
+		<script src="assets/js/jquery-2.1.4.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/modernizr.min.js"></script>
+		<script src="assets/js/pace.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/jquery.scrollTo.min.js"></script>
+		<script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+		<script src="assets/plugins/chat/moment-2.2.1.js"></script>
+		<script src="assets/plugins/toggles/toggles.min.js"></script>
+
+		<!-- Counter up -->
+		<script src="assets/js/waypoints.min.js" type="text/javascript"></script>
+		<script src="assets/js/jquery.counterup.min.js" type="text/javascript"></script>
+
+		<!-- jQuery Flot Chart-->
+		<script src="assets/plugins/flot-chart/jquery.flot.js"></script>
+		<script src="assets/plugins/flot-chart/jquery.flot.tooltip.min.js"></script>
+		<script src="assets/plugins/flot-chart/jquery.flot.resize.js"></script>
+
+		<!--Morris Chart-->
+		<script src="assets/plugins/morris/morris.min.js"></script>
+		<script src="assets/plugins/morris/raphael.min.js"></script>
+		<script src="assets/plugins/morris/morris.init.js"></script>
+
+		<!-- Sparkline -->
+		<script src="assets/plugins/sparkline-chart/jquery.sparkline.min.js" type="text/javascript"></script>
+		<script src="assets/js/sparkline_demo.js" type="text/javascript"></script>
+
+		<!-- Sweet Alerts -->
+		<script src="assets/plugins/sweet-alert/sweet-alert.min.js"></script>
+		<script src="assets/plugins/sweet-alert/sweet-alert.init.js"></script>
+
+		<!-- Todo -->
+		<script src="assets/js/todo.js"></script>
+
+		<!-- Site Script -->
+		<script src="assets/js/app.js"></script>
+
+		<!-- Demo Swicth Color -->
+		<script src="assets/js/demo_color.js"></script>
+
+	</body>
+</html>

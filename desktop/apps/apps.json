@@ -1,0 +1,60 @@
+{
+  "app": [
+    {
+      "id": "pagejax",
+      "icon": "fa-bar-chart-o",
+      "title": "Pagejax",
+      "page": "pagejax.html",
+      "theme": "blue",
+      "col": "col-md-12 col-xs-12 col-sm-3"
+    },
+     {
+      "id": "classic",
+      "icon": "fa-calendar-o",
+      "title": "Classic Dashboard",
+      "page": "classic.html",
+      "theme": "default",
+      "col": "col-md-6 col-xs-12 col-sm-6"
+    },
+    {
+      "id": "calendar",
+      "icon": "fa-calendar-o",
+      "title": "Calendar",
+      "page": "calendar.html",
+      "theme": "green",
+      "col": "col-md-6 col-xs-12 col-sm-6"
+    },
+    {
+      "id": "contacts",
+      "icon": "fa-users",
+      "title": "Contacts",
+      "page": "contacts.html",
+      "theme": "purple",
+      "col": "col-md-12 col-xs-12 col-sm-12"
+    },
+    {
+      "id": "invoice",
+      "icon": "fa-users",
+      "title": "Invoice",
+      "page": "invoice.html",
+      "theme": "red",
+      "col": "col-md-6 col-xs-6 col-sm-6"
+    },
+     {
+      "id": "help",
+      "icon": "fa-key",
+      "title": "Help",
+      "page": "help.html",
+      "theme": "blue",
+      "col": "col-md-6 col-xs-6 col-sm-6"
+    },
+    {
+      "id": "login",
+      "icon": "fa-key",
+      "title": "Login",
+      "page": "login.html",
+      "theme": "orange",
+      "col": "col-md-12 col-xs-12 col-sm-12"
+    }
+  ]
+}

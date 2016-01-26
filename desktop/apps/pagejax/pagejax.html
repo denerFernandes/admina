@@ -1,0 +1,181 @@
+<div class="wraper container-fluid">
+				<div class="page-title">
+					<h3 class="title">Pagejax</h3>
+					<small>Pagejax is simply and useful for load pages and submit form for ajax.</small>
+					<div class="row m-t-15">
+						<div class="col-lg-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title">Auto Load</h3>
+								</div>
+								<div class="panel-body">
+									<div data-pagejax="apps/pagejax/demos/autoload.html"  id="autoload"></div>
+									<h5>Using:</h5>
+
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th>Atribute</th>
+												<th>Value</th>
+												<th>Require</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+
+												<td>data-pagejax</td>
+												<td>Your page (To load external page the server must accept cross-domain)</td>
+												<td>Yes</td>
+											</tr>
+											<tr>
+
+												<td>id</td>
+												<td>Element where the page is loaded.</td>
+												<td>Yes</td>
+											</tr>
+
+										</tbody>
+									</table>
+
+									<h5>Example:</h5>
+									<pre>&lt;div data-pagejax="apps/pagejax/demos/autoload.html"&nbsp; id="autoload"&gt;&lt;/div&gt;</pre>									
+                          
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title">Link Load</h3>
+								</div>
+								<div class="panel-body">
+
+									<div id="link">
+										<a class="btn btn-primary m-b-30" href="apps/pagejax/demos/link.html" data-pagejax data-pageto="#link">Clik Me</a>
+										<p class="m-b-30">
+											the content will be load here!
+										</p>
+									</div>
+									<h5>Using:</h5>
+
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th>Atribute</th>
+												<th>Value</th>
+												<th>Require</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+
+												<td>data-pagejax</td>
+												<td>none</td>
+												<td>Yes</td>
+											</tr>
+											<tr>
+
+												<td>data-pageto</td>
+												<td>Element where the page is loaded.</td>
+												<td>Yes</td>
+											</tr>
+											<tr>
+
+												<td>href</td>
+												<td>Your page (To load external page the server must accept cross-domain)</td>
+												<td>Yes</td>
+											</tr>
+
+										</tbody>
+									</table>
+
+									<h5>Example:</h5>
+									<pre>&lt;a href="apps/pagejax/demos/link.html" data-pagejax data-pageto="#link"&gt;Clik Me&lt;/a&gt;</pre>									
+                          
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- End row -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title">Form Ajax Submit</h3>
+								</div>
+								<div class="panel-body">
+
+									<div id="link">
+										<div id="demo">
+											<form role="form" action="apps/pagejax/demos/form.php" method="post" data-pageto="#demo" data-pagejax>
+												<div class="form-group">
+													<label for="name">Your Name:</label>
+													<input class="form-control" id="name" placeholder="Enter email" name="name" type="text">
+												</div>
+									
+												<div class="form-group">
+													<label class="cr-styled">
+														<input type="checkbox" name="remember">
+														<i class="fa"></i> Remember me </label>
+												</div>
+												<button type="submit" class="btn btn-purple">
+													Submit
+												</button>
+											</form>
+										</div>
+									</div>
+									<h5 class="m-t-20">Using:</h5>
+
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th>Atribute</th>
+												<th>Value</th>
+												<th>Require</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+
+												<td>data-pagejax</td>
+												<td>none</td>
+												<td>Yes</td>
+											</tr>
+											<tr>
+
+												<td>data-pageto</td>
+												<td>Element where the page is loaded.</td>
+												<td>Yes</td>
+											</tr>
+											<tr>
+
+												<td>action</td>
+												<td>Page send data form</td>
+												<td>Yes</td>
+											</tr>
+											<tr>
+
+												<td>method</td>
+												<td>Post Or Get</td>
+												<td>Yes</td>
+											</tr>
+
+										</tbody>
+									</table>
+
+									<h5>Example:</h5>
+									<pre>&lt;form role="form" action="apps/pagejax/demos/form.php" method="post" data-pageto="#demo" data-pagejax&gt;</pre>									
+                          
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>

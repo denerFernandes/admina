@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>index</title>
+		<meta name="description" content="">
+		<meta name="author" content="seta">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/ionicons.min.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/perfect-scrollbar.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/helper.css">
+		<link rel="stylesheet" href="assets/css/laker.css">
+		<link rel="stylesheet" href="assets/css/bootstrap-reset.css">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+		<div class="app-list animated">
+			<div class="apps-userMenu">
+				<div class="userPhoto dropdown">
+					<img src="assets/images/profile.jpg" class="img-circle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="userMenu" />
+					<ul class="dropdown-menu" aria-labelledby="userMenu">
+						<li>
+							<a href="#">Action</a>
+						</li>
+						<li>
+							<a href="#">Another action</a>
+						</li>
+						<li>
+							<a href="#">Something else here</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="#">Separated link</a>
+						</li>
+					</ul>
+
+				</div>
+				<div class="fullScreenMenu menu-icon">
+					<a href="#" class="ion-arrow-expand fullscreen" title="Full Screen Mode"></a>
+				</div>
+				<div class="settingMenu menu-icon">
+					<a href="#" class="ion-gear-b" data-toggle="modal" data-target="#myModal"></a>
+				</div>
+				<div class="menuLogout menu-icon">
+					<a href="#" class="ion-power"></a>
+				</div>
+			</div>
+			<div class="apps-block container-fluid"></div>
+			<div class="search">
+				<div class="form-group">
+					<div class="input-group">
+						<input type="text" class="form-control" id="searchApp" placeholder="Search">
+						<div class="input-group-addon">
+							<i class="fa fa-search"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu-bar">
+			<div class="start">
+				<a class="menu-icon" href="#"> <i class="fa fa-bars"></i> </a>
+			</div>
+			<div class="apps-bar">
+
+			</div>
+			<div class="min-apps" title="Show all Apps"></div>
+			<div class="clock-bar">
+				<span class="hours"></span>:<span class="min"></span>
+			</div>
+
+		</div>
+		<div class="container-fluid content" id="apps">
+			<section class="content">
+
+				<!-- Page Content -->
+
+				<div class="wraper container-fluid">
+
+					<div class="col-lg-2  col-sm-12 col-md-6 home-widget">
+						<div class="portlet">
+							<div class="portlet-heading">
+								<h3 class="portlet-title text-dark text-uppercase"> Downloads </h3>
+
+								<div class="clearfix"></div>
+							</div>
+							<div id="portlet1" class="panel-collapse collapse in">
+								<div class="portlet-body ">
+									<div class="row">
+
+										<div class="col-md-12">
+
+											<p class="small">
+												Server 0 - <span class="text-purple">70%</span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-purple progress-animated wow animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+											</div>
+											<p class="small">
+												Server 1 - <span class="text-warning">10%</span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-warning progress-animated wow animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+											</div>
+											<p class="small">
+												Server 2 - <span class="text-success">55%</span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-success progress-animated wow animated" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%"></div>
+											</div>
+											<p class="small">
+												Server 3 - <span class="text-info">30%</span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-info progress-animated wow animated" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+											</div>
+											<p class="small">
+												Server 4 - <span class="text-info">50%</span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-pink progress-animated wow animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				<!-- End Content -->
+
+			</section>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title" id="myModalLabel">Configurations</h4>
+					</div>
+					<div class="modal-body">
+						...
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">
+							Close
+						</button>
+						<button type="button" class="btn btn-primary">
+							Save changes
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+		<script src="assets/js/jquery-2.1.4.min.js"></script>
+		<script src="assets/js/perfect-scrollbar.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script src="assets/js/bootstrap-datepicker.min.js"></script>
+		<script src="assets/js/bootstrap-slider.min.js"></script>
+		<script src="apps/calendar/js/moment.min.js"></script>
+		<script src="apps/calendar/js/fullcalendar.min.js"></script>
+		<script src="apps/calendar/js/gcal.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+		<script src="apps/charts/js/morris/morris.min.js"></script>
+		<script src="apps/charts/js/chart/Chart.min.js"></script>
+		<script src="assets/js/select2.min.js"></script>
+		<script src="assets/js/screenfull.js"></script>
+		<script src="assets/js/app.js"></script>
+		<script src="assets/js/clock.js"></script>
+		<script src="assets/js/pagejax.js"></script>
+		<script src="assets/js/laker.js"></script>
+
+	</body>
+</html>
